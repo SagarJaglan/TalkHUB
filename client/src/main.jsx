@@ -7,7 +7,7 @@ import Login from "./pages/authentication/Login.jsx";
 import Signup from "./pages/authentication/Signup.jsx";
 import { Provider } from "react-redux";
 import { store } from "./store/store.js";
-import ProtectedRoutes from "./components/protectedRoutes.jsx";
+import ProtectedRoutes from "./components/ProtectedRoutes.jsx";
 
 const router = createBrowserRouter([
   {
